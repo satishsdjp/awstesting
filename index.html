@@ -1,1 +1,372 @@
-hello
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="HandheldFriendly" content="true">
+<title>DNS Lookup tool, Reverse DNS lookup tool - www.DNSWatch.info</title>
+<meta name="description" content="Lookup DNS records with exact performance measuring, monitor your dns servers!">
+<meta name="keywords" content="dns lookup,dns speed,dns performance,dns resolve speed,dns resolve,resolve dns">
+<meta name="DC.title" content="DNS Lookup tool, Reverse DNS lookup tool - www.DNSWatch.info">
+<meta name="DC.description" content="Lookup DNS records with exact performance measuring, monitor your dns servers!">
+<style type="text/css">
+.bottomlinks{text-align:center;margin-top:3em;font-size:90%}a{color:blue}a:visited{color:#813116}ul{margin-left:10px;padding-left:10px;margin-top:0}H1{font-size:100%;color:gray}H3{color:#c26b1d;font-weight:bold;FONT-SIZE:100%;margin-bottom:5px;letter-spacing:.15em}.footertext{FONT-SIZE:100%;margin-top:2em;text-align:left}.ad{FONT-SIZE:100%;text-align:left}.whoistable,.dnstable,.dnsform,.t,.label{font-size:105%}.whoistable,.dnstable{padding:2px}.whoistable{background-color:#ffeac1;border:solid #c26b1d 1px;color:#946610}.dnstable,.dnsform{background-color:#b9dc9a;border:solid #426523 1px;color:#426523}.menu{width:100%}.menu ul{margin:0;padding:0;list-style:none}.menu li{float:left;margin:0;padding:0 9px 9px 0}body{margin:8px;margin:.5rem;text-align:center;font-size:12px;font-size:.75rem;font-family:verdana,arial}#container{max-width:728px;margin:0 auto;text-align:left}.t{margin-top:24px;margin-top:1.5rem}.nlt-msg{font-size:105%;margin-top:8px;margin-top:.5rem}.nlt-success{color:green;font-weight:bold}.nlt-error{color:#b50000;font-weight:bold}.nltformleft{white-space:nowrap;padding-right:1rem}#nltsubsbutton{padding:1px;margin:0}#nlt-form table td{padding-right:.2em;padding-top:.7em;font-size:105%}#dnstracker-ad{background-color:#fff8dd;border:1px #ffe222 solid;text-align:left;font-size:105%;padding:.5rem .5rem .2rem;display:none}#dnstracker-ad .maintext{line-height:1.4rem}#dnstracker-ad .smallnote{font-size:7.5pt;color:#939393;margin-top:.4em}.highlight{font-weight:bold;color:#c26b1d;font-size:105%}ul.ads{list-style:none;margin-left:0;margin-top:5px;padding-left:0}ul.ads li{margin:0;padding-right:9px;padding-top:4px}.form{float:left;margin-right:20px}.dnsform{padding:5px 0 5px 5px}.dnsformentry{display:inline-block}input,select{padding:3px}@media only screen and (min-width:600px){body{margin:16px 20px;margin:1rem 1.25rem}}@media only screen and (min-width:768px){input{width:100%}form[name="rbllf"] .dnsformentry:first-of-type{width:180px}form[name="iplf"] .dnsformentry:first-of-type{width:170px}form[name="lf"] .dnsformentry:first-of-type{width:400px}}@media only screen and (max-width:479px){body{font-size:12px;font-size:.75rem}#container{width:auto}.leaderboard-ad{margin:0 -8px;margin:0 -0.5rem;text-align:center}#sidebar{text-align:center}.forms,.form{width:100%}.dnsformentry{margin-bottom:5px}.dnsformentry:first-of-type{width:100%}input[type="text"]{width:95%}input,select{font-size:130%}}
+.dnsformentry {margin-right: 5px;}
+</style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/css/main-min.css">
+<![endif]-->
+<script type="text/javascript">
+function updateType(a){if(a.length==0){document.lf.type.disabled=false;return}for(i=0;i<a.length;i++){if(a.charAt(i)!="."&&(a.charAt(i)<"0"||a.charAt(i)>"9")){document.lf.type.disabled=false;return}}document.lf.type.disabled=true};
+</script>
+
+
+<!--[if lt IE 9]>
+<script src="/js/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+
+<body onload="document.lf.host.focus();">
+
+
+
+<div id="container">
+  <div class="dnsform" style="padding: 3px;">
+  <div class="dnsformentry">
+    Language:
+    
+      
+      
+      
+        <b>English</b>
+        
+      
+    
+      
+      
+      
+        
+        <a href="/de" title="www.DNSWatch.info Deutsch">Deutsch</a>
+      
+    
+      
+      
+      
+        
+        <a href="/fr" title="www.DNSWatch.info Français">Français</a>
+      
+    
+  </div>
+  </div>
+
+  <div class="content">
+    <div style="text-align: center;">
+      <h1 style="margin-bottom: 1em; letter-spacing: 0.2em;">
+        <img src="/images/dnswatch-logo.png" alt="DNS Lookup tool, Reverse IP lookup tool &amp; DNS Monitoring service - www.DNSWatch.info"/>
+        <br/>DNS Lookups &amp; Performance Monitoring
+      </h1>
+
+      
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<div class="leaderboard-ad">
+<script>
+var width = document.documentElement.clientWidth || window.innerWidth;
+google_ad_client = "ca-pub-1762658593318739";
+if ( width >= 728 )
+{
+    google_ad_size = ["728", "90"];
+    google_ad_slot = "4659533434";
+}
+else if ( width >= 468 )
+{
+    google_ad_size = ["468", "60"];
+    google_ad_slot = "9302723434";
+}
+else
+{
+    google_ad_size = ["320", "100"];
+    google_ad_slot = "4586649036";
+}
+
+document.write (
+'<ins class="adsbygoogle" style="display:inline-block;width:'
++ google_ad_size[0] + 'px;height:'
++ google_ad_size[1] + 'px" data-ad-client="'
++ google_ad_client + '" data-ad-slot="'
++ google_ad_slot + '"></ins>'
+);
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+      <div style="text-align: left">
+          <div class="forms">
+            <div class="form">
+                <div class="t" style="padding-bottom: 0.4em; color: #C26B1D"><b>DNS Lookup / IP lookup</b></div>
+                
+
+
+
+<form style="margin-top: 0.2em" name="lf" method="GET" action="/dns/dnslookup">
+    <input type="hidden" name="la" value="en"/>
+    <div class="dnsform">
+        <div class="dnsformentry">
+            <div class="label">Hostname or IP</div>
+                <div class="field"><input type="text" name="host" onkeyup="updateType(this.value);"/></div>
+            </div>
+
+            <div class="dnsformentry">
+                <div class="label">Type</div>
+                <div class="field"><select name="type">
+                    
+                        <option value="A">A</option>
+                    
+                        <option value="AAAA">AAAA (IPv6)</option>
+                    
+                        <option value="MX">MX</option>
+                    
+                        <option value="NS">NS</option>
+                    
+                        <option value="SOA">SOA</option>
+                    
+                        <option value="TXT">TXT</option>
+                    </select></div>
+        </div>
+
+        <div class="dnsformentry">
+            <div class="label"></div>
+            <div class="field"><input type="submit" name="submit" value="Resolve"></div>
+        </div>
+    </div>
+</form>
+            </div>
+            <div class="form">
+                <div class="t" style="padding-bottom: 0.4em; color: #C26B1D"><b>RBL (Email Blacklist) Lookup</b></div>
+                
+
+
+
+
+
+<form style="margin-top: 0.2em" name="rbllf" method="GET" action="/dns/rbl-lookup">
+    <div class="dnsform">
+        <div class="dnsformentry">
+            <div class="label">Mailserver Host or IP</div>
+            <div class="field"><input type="text" name="host" /></div>
+        </div>
+        <div class="dnsformentry">
+            <div class="label"></div>
+            <div class="field"><input type="submit" name="submit" value="RBL Lookup" /></div>
+        </div>
+    </div>
+</form>
+            </div>
+            <div class="form">
+                <div class="t" style="padding-bottom: 0.4em; color: #C26B1D"><b>IP Location</b></div>
+                
+
+
+
+
+
+<form style="margin-top: 0.2em" name="iplf" method="GET" action="/dns/ip-location">
+    <div class="dnsform">
+        <div class="dnsformentry">
+            <div class="label">IP</div>
+            <div class="field"><input type="text" name="ip" /></div>
+        </div>
+        <div class="dnsformentry">
+            <div class="label"></div>
+            <div class="field"><input type="submit" name="submit" value="Locate IP" /></div>
+        </div>
+    </div>
+</form>
+            </div>
+          </div>
+      </div>
+
+      
+      <br style="clear:left">
+      <div id="dnstracker-ad">
+          <div style="margin-top: 0.2em;">
+                <div class="maintext">
+                    <span class="highlight">DNSWatch Products</span>
+                    <ul class="ads">
+                        <li><a href="/products/dns-performance-monitoring">DNS Performance Monitoring</a> starting at <b>$1/month</b></li>
+                        <li><a href="/products/rbl-monitoring">Mailserver Blacklist Monitoring</a> starting at <b>$3.5/month</b></li>
+                        <li><a href="/products/dns-changetracker">DNS Changetracker</a> starting at <b>$7.9/month</b></li>
+                    </ul>
+                </div>
+            </div>
+      </div>
+    </div>
+
+    
+
+
+
+
+  <div class="footertext">
+    <H3>Links</H3>
+    <div class="menu">
+      <ul>
+        <li>
+            <a href="/what's-my-ip" title="What's my IP?">My IP address</a>
+        </li>
+        <li>
+            <a href="/dns/rbl-lookup" title="Checks if your Mailserver IP is in one of 170 blacklists (RBLs)">Email Blacklist Lookup</a>
+        </li>
+        <li>
+            <a href="/dkim/create-dns-record" title="Create Domain Key Identified Mail DNS-Records for your Domain Key signature with our tool">DKIM DNS Record Creator</a>
+        </li>
+        <li>
+            <a href="/dns/ip-location" title="Locate IP addresses">Locate IP</a>
+        </li>
+      </ul>
+    </div>
+    <br clear="all">
+  </div>
+
+  <div style="margin-top: 2em" class="footertext">
+    <H3>Tips &amp; Tricks</H3>
+    <div class="menu">
+        <ul>
+            <li><a href="articles/dns-update">Howto make DNS changes with minimal downtime</a></li>
+            <li><a href="articles/public-key-pinning-date-problem">Public-Key-Pinning Date Problem</a></li>
+        </ul>
+    </div>
+    <br clear="all">
+  </div>
+
+  
+
+  <div style="margin-top: 2em" class="footertext">
+    <H3>Feedback</H3>
+    Please send us your feedback concerning this service to feedback@[dnswatch.info]
+  </div>
+
+  
+  
+  
+
+  <div class="bottomlinks">
+    <script type="text/javascript">
+    // message to show in non-IE browsers
+    var txt = "Bookmark DNSWatch.info";
+
+    //url of bookmark
+    var url = document.location.href;
+
+    //title of bookmark
+    var title = "DNSWatch.info - DNS Lookups & Monitoring";
+
+
+    var ver = navigator.appName;
+    var num = parseInt(navigator.appVersion);
+
+    if (ver == "Microsoft Internet Explorer")
+    {
+      if (num >= 4)
+      {
+        document.write('<A HREF="javascript:window.external.AddFavorite(url,title);" ');
+        document.write('onMouseOver=" window.status=')
+        document.write("txt; return true ")
+        document.write('"onMouseOut=" window.status=')
+        document.write("' '; return true ")
+        document.write('">'+ txt + '</a>')
+      }
+      else
+      {
+        document.write('Press Ctrl+D to bookmark DNSWatch.info');
+      }
+    }
+    else if (ver == "Opera")
+    {
+      document.write('Press Ctrl+T to bookmark DNSWatch.info');
+    }
+    else if (ver == "Netscape")
+    {
+      document.write('Press Ctrl+D to bookmark DNSWatch.info');
+    }
+    </script>
+  </div>
+
+  </div>
+</div>
+
+<br style="clear:both">
+
+<script src='/js/advertisement2.js'></script>
+
+
+
+
+<style type="text/css">
+#adb-overlay41055 {
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(0,0,0,0.88);
+z-index: 90000;
+display: none;
+}
+#adb-modal41055 {
+width: 300px;
+height: 320px;
+padding: 15px 20px;
+text-align: center;
+-webkit-box-shadow: 0 0 15px 1px rgba(0,0,0,0.2);box-shadow: 0 0 15px 1px rgba(0,0,0,0.2);
+-webkit-border-radius: 8px;border-radius: 8px;z-index: 90001;background-color: #ffffff;
+position: fixed;
+left: 50%;
+top: 50%;
+margin-left: -150px;
+margin-top: -225px;
+display: none;
+font-family: Arial;
+}
+</style>
+<div id="adb-overlay41055"></div>
+<div id="adb-modal41055">
+<div style="text-align: left; font-size: 15px; line-height: 30px">
+<div style="margin-bottom: 10px;">Dear Guest,</div>
+DNSWatch.info is available to anybody for free. This is only possible since we display ads to cover our expenses.
+<br/>
+An ad blocker installed on your browser is blocking ads on DNSWatch.info.<br/>
+<div style="margin-top: 10px; color: #1D77A8;">Please turn off your ad blocker or use a different browser to access this page.</div>
+</div>
+<div style="margin-top: 20px;"><form><input type="button" name="adb-confirm" value="I have turned off my ad blocker" onClick="window.location.reload(); return false;" /></form></div>
+</div>
+
+
+<script>
+  if( (window.adsbygoogle || (window.googletag && window.googletag.cmd)) && window.dnswAdsEnabled === undefined ){
+    document.getElementById('adb-modal41055').style.display='inline-block';
+    document.getElementById('adb-overlay41055').style.display ='block';
+  }
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-580685-4', 'dnswatch.info');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'dimension1', (( window.dnswAdsEnabled === undefined ) ? 'on' : 'off'));
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
+
