@@ -1,8 +1,0 @@
-version: 0.2
-phases:
-  build:
-    commands:
-    - echo "this is build phase"
-  post_build:
-    commands:
-    - echo "Deploy to s3"
