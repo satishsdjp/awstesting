@@ -1,2 +1,2 @@
 #!/bin/bash
-jar -xvf satish.war a
+jar -cvf satish.war a
