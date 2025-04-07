@@ -1,0 +1,27 @@
+basename = usable for file name path.
+example = basename /var/log/message
+output = message
+
+dirname = usable for directory name path.
+example = dirname /var/log
+output = /var/log
+
+realpath = usable for real path of file name
+ 
+============================================
+
+For file /directory availability check:-
+
+if [ -d folder_name ] = if folder exist
+if [! -d folder_name ] = if folder not exist
+
+if [ -f file_name ] = if file exist
+if [! -f file_name ] = if file not exist
+
+=============example======================
+FILEPATH="/home/satish/xyz/file.zip"
+if [ -f $FILEPATH  ];
+then echo "File exist"
+else echo "File Not exist"
+exit 1
+fi 

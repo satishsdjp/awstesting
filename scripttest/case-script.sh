@@ -1,16 +1,16 @@
 #!/bin/bash
-echo "Provide an Option"
-echo "============================="
-echo "a for print date"
-echo "b for list of scripts"
-echo "c for current location"
+echo "Backup Time"
+echo "===================================="
 
-read choice
+echo "Please choose a b c as per your requirement"
+echo "a for print date"
+echo "b for ls command"
+echo "c for current working directory"
+
+read -p "Please write from a b c :-  " choice
 
 case $choice in
 a) date;;
-b) ls ;;
-c) pwd;;
-*) echo "Invalid Value"
-
+b) ls -l ;;
+c) pwd ;;
 esac
